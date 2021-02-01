@@ -121,7 +121,7 @@ proxy-groups:
       - 🇭🇰 HK10
       - 🇭🇰 HK11
       - 🇭🇰 HK12
- - name: 🎸 网易音乐
+  - name: 🎸 网易音乐
     type: select
     proxies:
       - DIRECT
