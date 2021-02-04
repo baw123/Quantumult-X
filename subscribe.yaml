@@ -18,7 +18,8 @@ proxies:
   - {name: 🇭🇰 HK11, server: hk11-l1-g10.shadowflyurl.com, port: 10233, type: ss, cipher: rc4-md5, password: VkvcC2h9}
   - {name: 🇭🇰 HK12, server: hk12-l1-g10.shadowflyurl.com, port: 10233, type: ss, cipher: rc4-md5, password: VkvcC2h9}
   - {name: 🎵 unblock 1, server: music.desperadoj.com, port: 30001, type: ss, cipher: aes-128-gcm, password: desperadoj.com_free_proxy_emx2}
-  - {name: 🎵 unblock 2, server: 43.251.107.132, port: 8848, type: http, username: "", password: "", tls: false}
+  - {name: 🎵 unblock 2, server: music.griouges.cn, port: 39000, type: http, username: "", password: "", tls: false}
+  - {name: 🎵 unblock 3, server: 106.52.127.72, port: 19951, type: http, username: "", password: "", tls: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -60,7 +61,8 @@ proxy-groups:
     proxies:
       - DIRECT
       - 🎵 unblock 1
-      - 🎵 unblock 2 
+      - 🎵 unblock 2
+      - 🎵 unblock 3
   - name: 🎯 全球直连
     type: select
     proxies:
